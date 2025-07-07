@@ -1,0 +1,123 @@
+/* bài 1 */
+.fadein {
+    text-align: center;
+    margin: 30px;
+    padding: 60px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(142, 146, 146);
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fadein:hover {
+    background-color: rgb(38, 40, 40);
+}
+
+/* bài 2 */
+.change {
+    margin: 30px;
+    text-align: center;
+    color: aliceblue;
+    background-color: darkgray;
+    height: 100px;
+    width: 300px;
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.change:hover {
+    background-color: blue;
+}
+
+/* bài 3 */
+.grow {
+    margin: 30px;
+    padding: 60px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(142, 146, 146);
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.grow:hover {
+    scale: 1.5;
+}
+
+/* bài 4 */
+.sh {
+    margin: 30px;
+    padding: 60px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(142, 146, 146);
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.sh:hover {
+    scale: 0.5;
+}
+
+/* Bài 5 */
+.rotate {
+    margin: 30px;
+    padding: 60px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(142, 146, 146);
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rotate:hover {
+    transform: rotate(-45deg)
+}
+
+/* bài 6 */
+.sq {
+    margin: 30px;
+    padding: 60px;
+    color: aliceblue;
+    background-color: rgb(126, 125, 122);
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    transition: border-radius 2s;
+}
+
+.sq:hover {
+    border-radius: 50%;
+
+}
+
+/* bài 7 */
+.in {
+    margin: 30px;
+    padding: 60px;
+    color: aliceblue;
+    background-color: rgb(126, 125, 122);
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    border: 30px solid rgb(126, 125, 122);
+    transition: 1s;
+}
+.in:hover{
+    border: 30px solid rgb(24, 15, 139)
+}
